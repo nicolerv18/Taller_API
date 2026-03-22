@@ -1,0 +1,126 @@
+body{
+font-family: Eloquent JF Pro Regular (scaled), Helvetica, Arial, sans-serif;
+text-align:center;
+background:#f5f5f5;
+}
+.title{
+font-family: MrsSaintDelafield Pro Regular (scaled), Helvetica, Arial, sans-serif;
+text-align:center;
+background:#141B2E;
+color: white;
+}
+
+header{
+  background-color: #141B2E;
+  color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  height: 35px;
+}
+nav{
+  display: flex;
+  gap: 30px;
+}
+a{
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text{
+    font-family: MrsSaintDelafield Pro Regular (scaled), Helvetica, Arial, sans-serif;
+text-align:center;
+
+}
+
+.productos{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+padding:20px;
+}
+#data{
+  display: flex;
+flex-wrap: wrap;
+  gap: 20px;
+
+}
+.card{
+background:white;
+border-radius:10px;
+padding:15px;
+  width: 30%;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+table {
+    border: 1px solid  #3f589d;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+table th, table td {
+    border: 1px solid  #141B2E;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+table th {
+    font-weight: bold;
+}
+
+.card img{
+width:150px;
+height:150px;
+object-fit:cover;
+}
+
+button{
+background:#141B2E;
+border:none;
+gap: 15px;
+padding:10px;
+border-radius:5px;
+cursor:pointer;
+color:white;
+height: 30px;
+}
+
+button:hover{
+background:#6a71cd;
+}
+
+#resultado{
+font-size:20px;
+font-weight:bold;
+margin-top:15px;
+}
+
+input{
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+margin-bottom:15px;
+width: 200px;
+height: 5px;
+}
+
+.modal{
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content{
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}

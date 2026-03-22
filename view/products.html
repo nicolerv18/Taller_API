@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>RentaMovil cars</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+<h1>RentaMovil</h1>
+<nav>
+<a href="products.html">Productos</a>
+<a href="cars.html"> Carrito</a>
+<a href="users.html">Usuarios</a>
+<a href="ports.html">Ports</a>
+</nav>
+</header>
+<br>
+<br>
+<div>
+<label for="productId">ID</label>
+<input type="number" id="idFilter" placeholder="ID del carro" onkeyup="getFindByIdCars()">
+<button class="btn btn-primary" onclick="getAllCars()">Consultar productos</button>
+<button id="bnt" class="btn btn-success" onclick="formularioEdit()">Añadir productos</button>
+</div>
+<div id="data"></div>
+<div id="modal"></div>
+<div id="deletem"></div>
+<script src="../js/code.js"></script>
+<script src="../js/products.js"></script>
+
+
+</body>
+</html>

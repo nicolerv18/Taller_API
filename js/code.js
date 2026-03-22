@@ -1,6 +1,4 @@
 //Se crea la constante el url para la conexion con el servidor
-const urlCarts= "http://localhost:3000/carts"
-
 async function request(url, method="GET", body= null) {
     let options= {
         method : method,

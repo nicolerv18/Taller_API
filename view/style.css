@@ -124,3 +124,23 @@ height: 5px;
   border-radius: 10px;
   text-align: center;
 }
+
+.qty-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-minus, .btn-plus {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn-danger {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
